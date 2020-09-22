@@ -1,0 +1,3 @@
+CREATE DATABASE meusdados;
+USE meusdados;
+CREATE TABLE notas (id INT(5) PRIMARY KEY AUTO_INCREMENT, nome CHAR(15) NOT NULL, nota CHAR(100) NOT NULL, data DATE);
