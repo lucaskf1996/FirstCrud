@@ -6,24 +6,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Criar Nota</title>
 </head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <body>
+<div class = "container">
 	<h1>Criar Nota</h1>
 	<form method="post" action="Create">
-	    <table border="1">
-	        <tr>
-	            <td>Nome: </td>
-	            <td><input type="text" name="nome" size="15"/></td>
-	        </tr>
-	        <tr>
-	            <td>Nota: </td>
-	            <td><input type="text" name="nota" size="255"/></td>
-	        </tr>
-	        <tr>
-	            <td colspan="2">
-	                <input type="submit" value="Save">
-	            </td>
-	        </tr>
-	    </table>
+	<h3>Nome:</h3>
+	<input type="text" name="nome" class="form-horizontal"/>
+	<h3>Nota:</h3>
+	<input type="text" name="nota" class="form-horizontal"/>
+	<input type="submit" value="Save" class = "btn mt-1">
 	</form>
+	</div>
 </body>
 </html>
